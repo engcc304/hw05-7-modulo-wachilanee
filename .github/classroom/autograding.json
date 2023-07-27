@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Set 1",
+      "setup": "g++ -o a.out ./Homework/HW05/hw05-7-mod.cpp",
+      "run": "./a.out",
+      "input": "1989",
+      "output": "February has 28 days",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Set 2",
+      "setup": "g++ -o a.out ./Homework/HW05/hw05-7-mod.cpp",
+      "run": "./a.out",
+      "input": "2000",
+      "output": "February has 29 days",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
